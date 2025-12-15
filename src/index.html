@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo - LuisAlb</title>
+    
+    <style>
+        /* Variables para facilitar la gestión de colores y fuentes */
+        :root {
+            --bg-color: #1a1a1d; /* Fondo oscuro (similar al diseño de la imagen) */
+            --text-color: #ffffff; /* Texto principal blanco */
+            --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Estilos globales para el cuerpo de la página */
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            display: flex; /* Para centrar el contenido */
+            justify-content: center; /* Centrado horizontal */
+            align-items: center; /* Centrado vertical */
+            min-height: 100vh; /* Ocupar toda la altura de la vista */
+            text-align: center;
+        }
+
+        /* Contenedor principal para el contenido */
+        .container {
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        /* Estilo para el título principal "Hola Mundo - LuisAlb" */
+        .main-title {
+            font-size: 4.5em; /* Tamaño de letra grande y prominente */
+            font-weight: 700; /* Negrita */
+            letter-spacing: -1px; /* Espaciado ajustado para un look moderno */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Media Query para ajustar el tamaño de fuente en dispositivos más pequeños */
+        @media (max-width: 600px) {
+            .main-title {
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Hola Mundo - LuisAlb</h1>
+    </div>
+</body>
+</html>
